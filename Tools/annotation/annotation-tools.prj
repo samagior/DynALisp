@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] annotation-tools saved to:[undefined path] at:[2022-12-16]
+(VLISP-PROJECT-LIST 
+    :NAME
+    annotation-tools
+    :OWN-LIST
+    ("dimtext")
+    :FAS-DIRECTORY
+    nil
+    :TMP-DIRECTORY
+    nil
+    :PROJECT-KEYS
+    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+    :CONTEXT-ID
+    :AUTOLISP
+)
+;;; EOF

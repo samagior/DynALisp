@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] layadd saved to:[Undefined Path] at:[2022-12-07]
+(VLISP-PROJECT-LIST 
+    :NAME
+    layadd
+    :OWN-LIST
+    ("layadd" "dd" "ma" "mi" "ph")
+    :FAS-DIRECTORY
+    nil
+    :TMP-DIRECTORY
+    nil
+    :PROJECT-KEYS
+    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+    :CONTEXT-ID
+    :AUTOLISP
+)
+;;; EOF

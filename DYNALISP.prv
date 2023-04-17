@@ -1,0 +1,21 @@
+;;; Visual LISP make file [V1.0] DYNALISP saved to:[Undefined path] at:[4/13/23] 
+(PRV-DEF (:target . "DYNALISP.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:prj "Tools/layer/laysubstr/laysubstr.prj")
+	   (:prj "Tools/dev/dev-tools.prj")
+	   (:prj "Tools/setup/setup-tools.prj")
+	   (:prj "Tools/layer/layfilter/layfilter.prj")
+	   (:prj "Tools/layer/laytransf/laytransf.prj")
+	   (:prj "Tools/layer/laymake/laymake.prj")
+	   (:prj "Tools/layer/layadd/layadd.prj")
+	   (:prj "Tools/drawing/drawing-tools.prj")
+	 )
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

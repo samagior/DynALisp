@@ -1,0 +1,13 @@
+(defun c:CountReceptacles () 
+  (setq ss (ssget "X" '((0 . "INSERT") (2 . "Receptacle"))))
+  (setq count (sslength ss))
+  (alert (strcat "Total Receptacles in the drawing: " (itoa count)))
+  (princ)
+)
+
+(defun c:CountLights () 
+  (setq ss (ssget "X" '((0 . "INSERT") (2 . "Lighting Fixture"))))
+  (setq count (sslength ss))
+  (alert (strcat "Total Lightings in the drawing: " (itoa count)))
+  (princ)
+)

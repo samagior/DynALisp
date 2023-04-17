@@ -1,0 +1,6 @@
+(defun laysubstr (lyn msg /) 
+    (setvar "cmdecho" 0)
+    (command "-layer" "s" "0" "off" lyn "f" lyn "")
+    (prompt (strcat "Layer substracted: " msg))
+    (princ)
+)

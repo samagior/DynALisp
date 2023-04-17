@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] laymake saved to:[Undefined Folder] at:[Undefined Date]
+(VLISP-PROJECT-LIST 
+    :NAME
+    laymake
+    :OWN-LIST
+    ("1-cmd" "2-iniget" "3-dd" "4-ma" "5-m1" "6-m2" "7-ph" "laymake")
+    :FAS-DIRECTORY
+    nil
+    :TMP-DIRECTORY
+    nil
+    :PROJECT-KEYS
+    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+    :CONTEXT-ID
+    :AUTOLISP
+)
+;;; EOF

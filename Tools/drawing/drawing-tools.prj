@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] drawing-tools saved to:[undefined] at:[undefined]
+(VLISP-PROJECT-LIST 
+    :NAME
+    drawing-tools
+    :OWN-LIST
+    ("quick-scale" "quick-zoom" "select-attribut" "select-block" "select-color" "select-text" "select-linetype" "select-pattname" "draw-hatch")
+    :FAS-DIRECTORY
+    nil
+    :TMP-DIRECTORY
+    nil
+    :PROJECT-KEYS
+    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+    :CONTEXT-ID
+    :AUTOLISP
+)
+;;; EOF

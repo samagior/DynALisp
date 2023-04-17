@@ -1,0 +1,37 @@
+(defun-q dyl:startup () 
+
+    ;application file to load on startup:
+    (defun dyl:apps (/ acadObj preferences fileprefs currSupportPath newSupportPath) 
+
+        ;visual lisp variable setup:
+        (vl-load-com)
+        (setq acadObj (vlax-get-acad-object))
+        (setq preferences (vla-get-Preferences acadObj))
+        (setq fileprefs (vla-get-files preferences))
+        (setq currSupportPath (vla-get-SupportPath (vla-get-Files preferences)))
+        (setq newSupportPath "C:\\Users\\SMartineau\\OneDrive\\Documents\\GitHub\\Op2\\DynALisp")
+
+        ; add the DynALisp support path in AutoCAD Option menu (required to find mnl):
+        (if (= nil (wcmatch currSupportPath (strcat "*" newSupportPath "*"))) 
+            (vla-put-SupportPath fileprefs (strcat currSupportPath ";" newSupportPath))
+        )
+
+        ; advise the user and load the DynALisp application:
+        (setq dyl:version (strcat "v" "1.0")
+              dyl:repo    "[https://github.com/op2-platforms/DynALisp.git]"
+        )
+        (prompt (strcat "\n--> Loading DYNALISP.VLX" " - " dyl:version " - " dyl:repo))
+        (load "DYNALISP.VLX" "\n--> DYNALISP.VLX Loading Failed")
+        (princ)
+    )
+
+    ;command to reload dynalisp application after a remake:
+    (defun c:APPRELOAD-DYNALISP () 
+        (dyl:apps)
+    )
+
+    ;load application on startup:
+    (dyl:apps)
+)
+
+(setq s::startup (append s::startup dyl:startup))

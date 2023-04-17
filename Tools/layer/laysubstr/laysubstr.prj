@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] laysubstr saved to:[Undefined path] at:[2022-12-07]
+(VLISP-PROJECT-LIST 
+    :NAME
+    laysubstr
+    :OWN-LIST
+    ("script" "cmd")
+    :FAS-DIRECTORY
+    nil
+    :TMP-DIRECTORY
+    nil
+    :PROJECT-KEYS
+    (:BUILD (:standard) :MERGED T :SAFE-MODE T :MSGLEVEL 1)
+    :CONTEXT-ID
+    :AUTOLISP
+)
+;;; EOF
