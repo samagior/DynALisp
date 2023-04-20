@@ -6,7 +6,7 @@
           new "A"
           msg "All selected layers moved to Architectural"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Civil (/ typ old new msg) 
     (setq typ "dd"
@@ -14,7 +14,7 @@
           new "C"
           msg "All selected layers moved to Civil"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Contractor (/ typ old new msg) 
     (setq typ "dd"
@@ -22,7 +22,7 @@
           new "Z"
           msg "All selected layers moved to Contractor"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Electrical (/ typ old new msg) 
     (setq typ "dd"
@@ -30,7 +30,7 @@
           new "E"
           msg "All selected layers moved to Electrical"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Energy (/ typ old new msg) 
     (setq typ "dd"
@@ -38,7 +38,7 @@
           new "W"
           msg "All selected layers moved to Energy"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Equipment (/ typ old new msg) 
     (setq typ "dd"
@@ -46,7 +46,7 @@
           new "Q"
           msg "All selected layers moved to Equipment"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-FireProtection (/ typ old new msg) 
     (setq typ "dd"
@@ -54,7 +54,7 @@
           new "F"
           msg "All selected layers moved to Fire Protection"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-General (/ typ old new msg) 
     (setq typ "dd"
@@ -62,7 +62,7 @@
           new "G"
           msg "All selected layers moved to General"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Geotechnical (/ typ old new msg) 
     (setq typ "dd"
@@ -70,7 +70,7 @@
           new "B"
           msg "All selected layers moved to Geotechnical"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-HazardousMaterial (/ typ old new msg) 
     (setq typ "dd"
@@ -78,7 +78,7 @@
           new "H"
           msg "All selected layers moved to Hazardous Material"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Inteiror (/ typ old new msg) 
     (setq typ "dd"
@@ -86,7 +86,7 @@
           new "I"
           msg "All selected layers moved to Inteiror"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Landscape (/ typ old new msg) 
     (setq typ "dd"
@@ -94,7 +94,7 @@
           new "L"
           msg "All selected layers moved to Landscape"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-m (/ typ old new msg) 
     (setq typ "dd"
@@ -102,7 +102,7 @@
           new "M"
           msg "All selected layers moved to Mechanical"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Operation (/ typ old new msg) 
     (setq typ "dd"
@@ -110,7 +110,7 @@
           new "O"
           msg "All selected layers moved to Operation"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Other (/ typ old new msg) 
     (setq typ "dd"
@@ -118,7 +118,7 @@
           new "X"
           msg "All selected layers moved to Other"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Plumbing (/ typ old new msg) 
     (setq typ "dd"
@@ -126,7 +126,7 @@
           new "P"
           msg "All selected layers moved to Plumbing"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Process (/ typ old new msg) 
     (setq typ "dd"
@@ -134,7 +134,7 @@
           new "D"
           msg "All selected layers moved to Process"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Resource (/ typ old new msg) 
     (setq typ "dd"
@@ -142,7 +142,7 @@
           new "R"
           msg "All selected layers moved to Resource"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Structural (/ typ old new msg) 
     (setq typ "dd"
@@ -150,7 +150,7 @@
           new "S"
           msg "All selected layers moved to Structural"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Survey (/ typ old new msg) 
     (setq typ "dd"
@@ -158,7 +158,7 @@
           new "V"
           msg "All selected layers moved to Survey"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Telecommunication (/ typ old new msg) 
     (setq typ "dd"
@@ -166,7 +166,7 @@
           new "T"
           msg "All selected layers moved to Telecommunication"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 ;#endregion
 
@@ -178,7 +178,7 @@
           new "Detl"
           msg "Existing view type layers moved to DETAIL view"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Plan (/ typ old new msg) 
     (setq typ "ma"
@@ -186,7 +186,7 @@
           new "Plan"
           msg "Existing view type layers moved to PLAN view"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Elev (/ typ old new msg) 
     (setq typ "ma"
@@ -194,7 +194,7 @@
           new "Elev"
           msg "Existing view type layers moved to ELEVATION view"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Sect (/ typ old new msg) 
     (setq typ "ma"
@@ -202,7 +202,7 @@
           new "Sect"
           msg "Existing view type layers moved to SECTION view"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 ;#endregion
 
@@ -214,7 +214,7 @@
           new "Xfin"
           msg "All selected line thickness type layers moved to Extra Fine (0.13mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Fine (/ typ old new msg) 
     (setq typ "mi"
@@ -222,7 +222,7 @@
           new "Fine"
           msg "All selected line thickness type layers moved to Fine (0.18mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Thin (/ typ old new msg) 
     (setq typ "mi"
@@ -230,7 +230,7 @@
           new "Thin"
           msg "All selected line thickness type layers moved to Thin (0.25mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Medm (/ typ old new msg) 
     (setq typ "mi"
@@ -238,7 +238,7 @@
           new "Medm"
           msg "All selected line thickness type layers moved to Medium (0.35mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Wide (/ typ old new msg) 
     (setq typ "mi"
@@ -246,7 +246,7 @@
           new "Wide"
           msg "All selected line thickness type layers moved to Wide (0.50mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-X~~~ (/ typ old new msg) 
     (setq typ "mi"
@@ -254,7 +254,7 @@
           new "X~~~"
           msg "All selected line thickness type layers moved to Extra Wide (0.70mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-XX~~ (/ typ old new msg) 
     (setq typ "mi"
@@ -262,7 +262,7 @@
           new "XX~~"
           msg "All selected line thickness type layers moved to 2X Wide (1.00mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-XXX~ (/ typ old new msg) 
     (setq typ "mi"
@@ -270,7 +270,7 @@
           new "XXX~"
           msg "All selected line thickness type layers moved to 3X Wide (1.20mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-XXXX (/ typ old new msg) 
     (setq typ "mi"
@@ -278,7 +278,7 @@
           new "XXXX"
           msg "All selected line thickness type layers moved to 4X Wide (2.00mm)"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 
 (defun c:lt-0001 (/ typ old new msg) 
@@ -287,7 +287,7 @@
           new "0001"
           msg "All selected stack type layers moved to Number 0001"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0002 (/ typ old new msg) 
     (setq typ "mi"
@@ -295,7 +295,7 @@
           new "0002"
           msg "All selected stack type layers moved to Number 0002"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0003 (/ typ old new msg) 
     (setq typ "mi"
@@ -303,7 +303,7 @@
           new "0003"
           msg "All selected stack type layers moved to Number 0003"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0004 (/ typ old new msg) 
     (setq typ "mi"
@@ -311,7 +311,7 @@
           new "0004"
           msg "All selected stack type layers moved to Number 0004"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0005 (/ typ old new msg) 
     (setq typ "mi"
@@ -319,7 +319,7 @@
           new "0005"
           msg "All selected stack type layers moved to Number 0005"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0006 (/ typ old new msg) 
     (setq typ "mi"
@@ -327,7 +327,7 @@
           new "0006"
           msg "All selected stack type layers moved to Number 0006"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0007 (/ typ old new msg) 
     (setq typ "mi"
@@ -335,7 +335,7 @@
           new "0007"
           msg "All selected stack type layers moved to Number 0007"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0008 (/ typ old new msg) 
     (setq typ "mi"
@@ -343,7 +343,7 @@
           new "0008"
           msg "All selected stack type layers moved to Number 0008"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-0009 (/ typ old new msg) 
     (setq typ "mi"
@@ -351,7 +351,7 @@
           new "0009"
           msg "All selected stack type layers moved to Number 0009"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 ;#endregion
 
@@ -363,7 +363,7 @@
           new "E"
           msg "All selected layers moved to EXISTING TO REMAIN"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Neww (/ typ old new msg) 
     (setq typ "ph"
@@ -371,7 +371,7 @@
           new "N"
           msg "All selected layers moved to NEW WORK"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 (defun c:lt-Demo (/ typ old new msg) 
     (setq typ "ph"
@@ -379,6 +379,6 @@
           new "D"
           msg "All selected layers moved to DEMOLITION"
     )
-    (lt:sslayname typ old new msg)
+    (lt:init typ old new msg)
 )
 ;#endregion

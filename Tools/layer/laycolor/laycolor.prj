@@ -3,7 +3,7 @@
     :NAME
     laycolor
     :OWN-LIST
-    ("cmd" "laycolor")
+    ("cmd" "script")
     :FAS-DIRECTORY
     nil
     :TMP-DIRECTORY

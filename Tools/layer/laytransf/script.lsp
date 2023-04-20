@@ -1,5 +1,7 @@
 ;#region functions
-(defun lt:sslayname (typ old new / ss ctr ename lay dotp lst) 
+
+;first function to initiate the tool from "cmd" dataset:
+(defun lt:init (typ old new msg / ss ctr ename lay dotp lst) 
     (vl-load-com)
     (setq ss  (ssget)
           ctr 0

@@ -1,9 +1,10 @@
-;;; Visual LISP make file [V1.0] DYNALISP saved to:[Undefined path] at:[4/13/23] 
+;;; Visual LISP make file [V1.0] DYNALISP saved to:[C:/Users/SMartineau/OneDrive/Documents/GitHub/MySpace/DynALisp] at:[4/18/23] 
 (PRV-DEF (:target . "DYNALISP.VLX")
 	 (:active-x . T)
 	 (:separate-namespace)
 	 (:protected . T)
 	 (:load-file-list
+	   (:prj "Tools/annotation/annotation-tools.prj")
 	   (:prj "Tools/layer/laysubstr/laysubstr.prj")
 	   (:prj "Tools/dev/dev-tools.prj")
 	   (:prj "Tools/setup/setup-tools.prj")

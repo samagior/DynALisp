@@ -68,8 +68,8 @@
 )
 (defun c:hd-xnot (/ hname scale-i scale-m angl hkey lkey isan) 
     (setq hname   "ANSI31"
-          scale-i "1.0"
-          scale-m "1.0"
+          scale-i "1.5"
+          scale-m "1.5"
           angl    "90.0"
           hkey    "HATCH"
           lkey    "XLINE"
