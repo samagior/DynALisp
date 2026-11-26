@@ -78,7 +78,7 @@ Uninstall DynALisp from Windows **Settings > Apps**. It first offers to save you
 
 ## Programmers And Power Users
 
-Want to write your own tools, read the code or build DynALisp yourself? The [Developer docs](https://samagior.github.io/DynALisp.docs/dev/) explain how DynALisp is made and how to work on its source, kept in the [DynALisp.bundle](https://github.com/samagior/DynALisp.bundle) repository.
+Want to write your own tools, read the code or build DynALisp yourself? Head to **[DynALisp.bundle](https://github.com/samagior/DynALisp.bundle)**, the source repository: how DynALisp is made, how to install it from source, extend it and contribute. Its [Developer docs](https://samagior.github.io/DynALisp.docs/dev/) explain the code of each tool.
 
 ## Licence
 

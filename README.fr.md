@@ -78,7 +78,7 @@ Désinstallez DynALisp depuis **Paramètres > Applications** de Windows. Il prop
 
 ## Programmeurs et utilisateurs avancés
 
-Vous voulez écrire vos propres outils, lire le code ou compiler DynALisp vous-même ? La [documentation développeur](https://samagior.github.io/DynALisp.docs/dev/) (en anglais) explique comment DynALisp est fait et comment travailler sur son code source, gardé dans le dépôt [DynALisp.bundle](https://github.com/samagior/DynALisp.bundle).
+Vous voulez écrire vos propres outils, lire le code ou compiler DynALisp vous-même ? Rendez-vous sur **[DynALisp.bundle](https://github.com/samagior/DynALisp.bundle)**, le dépôt du code source : comment DynALisp est fait, comment l'installer depuis les sources, l'étendre et contribuer. Sa [documentation développeur](https://samagior.github.io/DynALisp.docs/dev/) (en anglais) explique le code de chaque outil.
 
 ## Licence
 
